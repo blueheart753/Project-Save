@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #4155 ;
+}
+
+h2{
+    margin: 8px;
+    display: inline-block;
+    position: relative;
+    bottom: 100%;
+    left: 20%;
+}
+div{
+   padding: 2%;
+}
+
+section{
+    background-color: bisque;
+}
+
+section>div{
+    
+}
+
+#dukge{
+    position: relative;
+    top: 15px;
+}
+
+#dukge_audio{
+    position:absolute;
+    bottom: 70%;
+    border: 3px solid rgba(39, 122, 1, 0.637);
+}
+
+.year{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgba(39, 122, 1, 0.637);
+}
+
+#games{
+    position:sticky;
+    bottom: 83%;
+    border: 3px solid rgba(0, 0, 255, 0.336);
+    color: rgba(0, 0, 255, 0.336);
+}
+#kamen_rider{
+    position:sticky;
+    bottom: 83%;
+    border: 3px solid rgba(88, 133, 133);
+    color: rgb(88, 133, 133);
+}
+#Ex{
+    position: relative;
+    top: 80px;
+    display: inline-block;
+}
+
+#Ex>h1{
+    text-align: center;
+    color: rgba(102, 51, 153, 0.719);
+    font-size: 6em;
+}
+.rec{
+    line-height: 15rem;
+    font-size: 2rem;
+}
+
+#first{
+    color:rgba(39, 122, 1, 0.637);
+}
+#sec{
+    color: rgb(88, 133, 133);
+}
+#the{
+    color: rgba(0, 0, 255, 0.336);
+}
+
+#pic{
+    display: inline-block;
+}
+#link_pic{
+    font-size: 2em;
+    text-decoration: none;
+    color: #308;
+    transition: 0.47s;
+}
+#link_pic:hover{
+    font-size: 2.4em;
+    color: #828;
+}   

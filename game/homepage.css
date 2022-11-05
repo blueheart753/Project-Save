@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    background: rgba(212, 212, 102, 0.297);
+}   
+
+.maincontainer {
+    width: 1500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1 {
+    width: 200px;
+    font-size: 26px;
+    display: inline-block;
+    margin:10px 0 0 10px;
+}
+
+h1>a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav {
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    left: 1100px;
+}
+
+#Sign_Up {
+    margin-right: 10px;
+}
+
+.regilog {
+    border: 0px;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    background-color: rgba(255, 99, 71, 0.442);
+    font-weight: 500;
+}
+
+.wellcome {
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+
+.game {
+    border: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px 10px 10px 5px;
+    font-size: 16px;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.play {
+    display: inline-block;
+    font-size: 26px;
+    position: absolute;
+    top: 350px;
+    left: 670px;
+    color: black;
+}

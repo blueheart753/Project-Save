@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width:800px){
+    div{
+       font-size: 20px; 
+    }
+}
+
+.container {
+    display: flex;
+}
+
+header {
+    background-color: rgba(220, 219, 219, 0.676);
+    width: 22%;
+    padding: 0 8 8 8;
+    box-sizing: border-box;
+}
+
+header>h1 {
+    text-align: end;
+}
+
+header img {
+    position: relative;
+    left: 15%;
+    border-radius: 47.2%;
+}
+
+header>p {
+    margin-left: 5%;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.snsa {
+    display: flex;
+    justify-content: center;
+    float: left;
+    transition: 0.5s;
+}
+
+#instagram {
+    margin: 16% 0 0 0;
+}
+
+#facebook {
+    margin: 19% 5% 0 0;
+}
+
+.snsa:hover {
+    transform: rotate(1turn);
+}
+
+section {
+    width: 100%;
+    background-color: rgb(231, 221, 255);
+}
+
+#bgm {
+    background-color: lavender;
+    font-size: 26px;
+}
+
+span {
+    position: relative;
+    left: 12%;
+    font-size: 26px;
+}
+
+audio {
+    position: relative;
+    left: 60%;
+}
+
+section>h1 {
+    margin-inline-start: 15%;
+    font-size: 40px;
+}
+
+section>article>h4 {
+    font-family: 'Hi Melody', cursive;
+    font-family: 'Sunflower', sans-serif;
+    font-size: 25px;
+    line-height: 80px;
+    margin-inline-start: 20%;
+}
+
+.my_dream {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 3em;
+    margin-inline-start: 20%;
+}
+
+#end {
+    display: inline-block;
+    font-size: 35px;
+    text-decoration: none;
+    color: salmon;
+    position: relative;
+    left: 23%;
+}
+
+#mine {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 30px;
+    text-decoration: none;
+    text-indent: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sos {
+    font-weight: 800        ;
+    font-family: 'Hi Melody', cursive;
+    font-family: 'Sunflower', sans-serif;
+    text-decoration: none;
+    transition: 0.45s;
+    color: rgba(241, 136, 94, 0.753);
+}
+
+.sos:hover {
+    color: rgba(199, 226, 77, 0.849);
+}
+
+#rec:hover {
+    transform: scale(1.4);
+    margin-right: 5%;
+}
+
+#pic:hover {
+    margin-left: 5%;
+    transform: scale(1.4);
+}
+
+.sos:active {
+    color: darkblue;
+}

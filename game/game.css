@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.select_game {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.select {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.op {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    font-size: 20px;
+    transition: 0.3s;
+    position: relative;
+    left: 100px;
+}
+
+.op:hover {
+    transform: scale(1.1);
+}
+
+.op>p {
+    display: inline-block;
+    justify-content: center;
+}
